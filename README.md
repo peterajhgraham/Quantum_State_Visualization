@@ -12,6 +12,8 @@ QuantumPhysicsProject/
 ├── test/
 │   ├── test_QuantumStates.jl
 │   └── test_Visualization.jl
+├── arduino/
+│   └── QuantumSensor.ino
 ├── Project.toml
 └── README.md
 ```
