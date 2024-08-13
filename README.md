@@ -1,6 +1,6 @@
 # Quantum Physics Visualization
 
-This project demonstrates how to represent and visualize quantum states using density matrices in Julia. 
+This project demonstrates how to represent and visualize quantum states using density matrices & QuantumOptics.jl in Julia. 
 
 ## Directory Structure
 
@@ -8,7 +8,8 @@ This project demonstrates how to represent and visualize quantum states using de
 QuantumPhysicsProject/
 ├── src/
 │   ├── QuantumStates.jl
-│   └── Visualization.jl
+│   ├── Visualization.jl
+│   └── Main.jl
 ├── test/
 │   ├── test_QuantumStates.jl
 │   └── test_Visualization.jl
