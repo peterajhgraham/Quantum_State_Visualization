@@ -1,2 +1,12 @@
-# quantum_state_visualization
-A basic quantum state visualization mini-project, which demonstrates how to represent and visualize quantum states using density matrices
+# Quantum Physics Visualization
+
+This project demonstrates how to represent and visualize quantum states using density matrices in Julia. 
+
+## Installation
+
+To install the necessary dependencies, run:
+
+```julia
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
