@@ -1,7 +1,6 @@
 module Visualization
 
 using Plots
-using LinearAlgebra
 
 """
 Plot the density matrix of a quantum state.
