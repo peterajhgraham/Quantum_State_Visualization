@@ -16,6 +16,7 @@ QuantumPhysicsProject/
 ├── arduino/
 │   └── QuantumSensor.ino
 ├── Project.toml
+├── .gitignore
 └── README.md
 ```
 
