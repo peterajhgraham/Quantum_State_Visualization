@@ -1,16 +1,22 @@
 module QuantumStates
 
-using LinearAlgebra
+using QuantumOptics
 
 """
-Create a quantum state given a vector representing the state.
+Create a density matrix for a pure quantum state given a state vector.
 """
 
 function create_state(vector::Vector{Complex{T}}) where T
     if length(vector) != 2
         error("Only 2-dimensional quantum states are supported.")
     end
-    density_matrix = vector * transpose(conj(vector))
+
+    # Normalize the vector
+    norm_vector = vector / norm(vector)
+    
+    # Compute the density matrix using QuantumOptics
+    density_matrix = DensityMatrix(norm_vector)
+
     return density_matrix
 end
 
