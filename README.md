@@ -5,7 +5,7 @@ This project demonstrates how to represent and visualize quantum states on an Ar
 ## Directory Structure
 
 ```
-QuantumPhysicsProject/
+Quantum_State_Visualization/
 ├── src/
 │   ├── QuantumStates.jl
 │   ├── Visualization.jl
