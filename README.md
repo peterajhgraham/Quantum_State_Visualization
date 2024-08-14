@@ -1,4 +1,4 @@
-# Quantum Physics Visualization
+# Quantum State Visualization
 
 This project demonstrates how to represent and visualize quantum states using density matrices & QuantumOptics.jl in Julia. 
 
