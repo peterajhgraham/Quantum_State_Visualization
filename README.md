@@ -31,7 +31,7 @@ Quantum_State_Visualization/
 
 ```bash
 git clone https://github.com/peterajhgraham/quantum_state_visualization.git
-cd QuantumPhysicsProject
+cd Quantum_State_Visualization
 ```
 
 ## Usage
