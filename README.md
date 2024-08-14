@@ -10,11 +10,14 @@ Quantum_State_Visualization/
 │   ├── QuantumStates.jl
 │   ├── Visualization.jl
 │   └── Main.jl
+│
 ├── test/
 │   ├── test_QuantumStates.jl
 │   └── test_Visualization.jl
+│
 ├── arduino/
 │   └── QuantumSensor.ino
+│
 ├── Project.toml
 ├── LICENSE
 ├── .gitignore
