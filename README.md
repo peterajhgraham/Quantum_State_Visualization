@@ -1,6 +1,6 @@
 # Quantum State Visualization
 
-This project demonstrates how to represent and visualize quantum states on an Arduino Board using density matrices in Julia. 
+This project demonstrates how to represent and visualize quantum states on an Arduino Board using density matrices. 
 
 ## Directory Structure
 
