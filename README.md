@@ -1,6 +1,6 @@
 # Quantum State Visualization
 
-This project demonstrates how to represent and visualize quantum states using density matrices & QuantumOptics.jl in Julia. 
+This project demonstrates how to represent and visualize quantum states on an Arduino Board using density matrices in Julia. 
 
 ## Directory Structure
 
@@ -21,11 +21,45 @@ QuantumPhysicsProject/
 └── README.md
 ```
 
-## Installation
+## Setup
+#### Prerequisites
+- Julia (v1.8 or later)
+- Arduino IDE
 
-To install the necessary dependencies, run:
+## Installation
+#### Clone the Repository:
+
+```bash
+git clone https://github.com/peterajhgraham/quantum_state_visualization.git
+cd QuantumPhysicsProject
+```
+
+## Usage
+#### To install the necessary Julia dependencies, run:
 
 ```julia
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
+```
+
+#### Arduino Setup:
+
+- Open the QuantumSensor.ino file in the Arduino IDE.
+- Connect your Arduino board to your computer.
+- Upload the Arduino sketch to your board.
+
+## Running the Project
+#### Start the Julia Environment where you will run:
+
+```julia
+using Pkg
+Pkg.activate(".")
+include("src/Main.jl")
+```
+
+This will execute the Main.jl file, which ties together the functionality for QuantumStates.jl and Visualization.jl files.
+
+#### Run the Visualization:
+
+The Main.jl script will handle the quantum state calculations and visualization. Ensure that your Arduino is connected and sending data as expected.
